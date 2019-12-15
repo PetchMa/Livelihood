@@ -268,10 +268,10 @@ h6{
 }
 .header__menu > ul > li.header__btn--signup > a { 
 	color:#fff; 
-	background-color:#fb993e;
+	background-color:#d226fc;
 	padding:0 22px; 
 	margin:19px 0 0 25px;
-	border:1px #fb993e solid;
+	border:1px #d226fc solid;
 }
 .header__menu > ul > li.header__btn--login > a {
 	color:#38cbdd; 
@@ -281,8 +281,8 @@ h6{
 }
 .header__menu ul li.header__btn--signup > a:hover{
 	background:none; 
-	border:1px #fb993e solid;
-	color:#fb993e;
+	border:1px #92f7e5 solid;
+	color:#92f7e5;
 }
 .header__menu ul li.header__btn--login > a:hover{
 	background-color:#38cbdd; 
@@ -721,8 +721,8 @@ h6{
  }
 .btn--blue-bg{
 	color:#fff;
-	background-color:#38cbdd;
-	border:2px #38cbdd solid;
+	background-color:#d226fc;
+	border:2px #d226fc solid;
 }
 .btn--blue-bg:hover{
 	background-color:transparent;
@@ -738,8 +738,8 @@ h6{
 	background-position:92% 50%;
 }
 .btn--blue-border{ 
-	color:#38cbdd; 
-	border:1px #38cbdd solid;
+	color:#d226fc; 
+	border:1px #d226fc solid;
 }
 .btn--blue-border:hover{ 
 	background-color:#38cbdd; 
@@ -764,19 +764,19 @@ h6{
 }
 .btn--orange-bg{
 	color:#fff;
-	background-color:#fb993e;
-	border:2px #fb993e solid;
+	background-color:#d226fc;
+	border:2px #d226fc solid;
 }
 .btn--orange-bg:hover{
-	color:#fb993e;
+	color:#d226fc;
 	background-color:transparent;
 }
 .btn--orange-border{ 
-	color:#fb993e; 
-	border:1px #fb993e solid;
+	color:#d226fc; 
+	border:1px #d226fc solid;
 }
 .btn--orange-border:hover{ 
-	background-color:#fb993e; 
+	background-color:#d226fc; 
 	color:#fff;
 }
 
@@ -791,9 +791,9 @@ h6{
 .section--intro{
 	width:100%;
 	height:100%;
-	background-color:#42387a;
-	background: -webkit-linear-gradient(60deg, #42387a, #9d41e0); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(60deg, #42387a, #9d41e0); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-color:#3752D9;
+	background: -webkit-linear-gradient(60deg, #3752D9, #6A82F5); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(60deg, #3752D9, #6A82F5); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	position:relative;
 	overflow:hidden;
 }
@@ -1198,7 +1198,7 @@ svg.svg-features-bottom {
 .switcher__border{
 	height: 40px;
 	width: 50%;
-	background-color:#42387a;
+	background-color:#3752D9;
 	display:block;
 	position:absolute;
 	top:0px;
@@ -1248,7 +1248,7 @@ svg.svg-features-bottom {
 	padding:50px 0 70px 0;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
-	background-color:#42387a;
+	background-color:#3752D9;
 	color:#fff;
 	-moz-box-shadow: 10px 0 15px -10px rgba(0, 0, 0, .45), -10px 0 15px -10px rgba(0, 0, 0, .45);
 	-webkit-box-shadow: 10px 0 15px -10px rgba(0, 0, 0, .45), -10px 0 15px -10px rgba(0, 0, 0, .45);
@@ -1264,7 +1264,7 @@ svg.svg-features-bottom {
 	color:#fff;
 	font-size:14px;
 	font-weight:700;
-	background-color:#fb993e;
+	background-color:#92f7e5;
 	padding:8px 20px;
 }
 .pricing__title{
@@ -1436,11 +1436,11 @@ svg.svg-features-bottom {
  }
 .pricing__plan--popular .pricing__signup{
 	color:#fff;
-	background-color:#fb993e;
-	border:2px #fb993e solid;
+	background-color:#d226fc;
+	border:2px #d226fc solid;
  }
 .pricing__plan--popular .pricing__signup:hover{
-	color:#fb993e;
+	color:#d226fc;
 	background:none;
  }
 
@@ -1449,7 +1449,7 @@ svg.svg-features-bottom {
 /*===============================================*/
  
 .section--cta{
-	background-color:#42387a;
+	background-color:#3752D9;
 	position:relative;
 	color:#fff;
 	padding-bottom:50px;
@@ -1578,10 +1578,10 @@ svg.svg-cta-bottom {
 	font-size:18px;
 	font-weight:300;
 	letter-spacing:0.5px;
-	background-color:#42387a;
+	background-color:#3752D9;
 	padding: 20px 62px;
 	margin:0 auto 0 auto;
-	border: 1px #42387a solid;
+	border: 1px #3752D9 solid;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	border-radius: 25px;
@@ -1943,7 +1943,7 @@ transition: all 0.3s 0.12s;
   background-color:#38cbdd;
 }
 .modal__content--signup{
-  background-color:#fb993e;
+  background-color:#d226fc;
 }
 .modal__info{
 	width:34%;
@@ -2711,7 +2711,7 @@ svg.svg-cta-bottom {
 }
 .grid--support{
 	display: block;
-	background-color:#fb993e;
+	background-color:#d226fc;
 }
 .grid--support .grid__item.grid__item--padding{
 	background:none;
