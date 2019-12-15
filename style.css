@@ -57,6 +57,12 @@ body{
 .clear{
 	clear:both;
 }
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+
 p{
 	padding:0;
 	margin:0px;
@@ -1795,7 +1801,6 @@ svg.svg-cta-bottom {
 .input--filled .input__label--effect::after {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	
 }
 .input__field--effect:focus + .input__label--effect .input__label-content--effect,
 .input--filled .input__label-content--effect {
@@ -1816,7 +1821,6 @@ svg.svg-cta-bottom {
 		transform: translate3d(0, -60%, 0);
 	}
 }
-
 @keyframes anim-input {
 	50% {
 		opacity: 0;
