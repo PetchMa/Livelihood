@@ -1,0 +1,16 @@
+#body{
+    background-color: #FDFDFD;
+}
+#circle-background{
+    background-color: #F8F8F8;
+    border-radius: 100%;
+    width: 120vh;
+    height: 120vh;
+    left: -20%;
+    top: -30%;
+    position: absolute;
+    z-index: -1;
+}
+#button-authentication{
+    
+}
