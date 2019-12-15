@@ -1937,10 +1937,10 @@ transition: all 0.3s 0.12s;
 	margin:auto;
 }
 .modal__content--login{
-  background-color:#38cbdd;
+  background-color:#d226fc;
 }
 .modal__content--forgot{
-  background-color:#38cbdd;
+  background-color:#d226fc;
 }
 .modal__content--signup{
   background-color:#d226fc;
