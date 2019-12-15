@@ -16,7 +16,7 @@
 
 	<section class="section section--features" id="features">
 			<div class="section__content section__content--fluid-width section__content--features">
-			        <h2 class="section__title section__title--centered">Crime Rates</h2>
+			        <h2 class="section__title section__title--centered">Real Estate</h2>
             </div>
             <section class="section section--about" id="about">
 
@@ -24,13 +24,13 @@
                         <div class="grid grid--5col grid--about">
                         
                             <div class="grid__item grid__item--x2">
-                                <h3 class="grid__title"><span>Crime Rates By Region</span></h3>
-                                <p class="grid__text">Canada is known to provide one of the best countries in the world with regard to personal security and public safety. Crime rates are low, police are trusted, easy to contact, and quick to respond.
+                                <h3 class="grid__title"><span>Mortgages</span></h3>
+                                <p class="grid__text">Having trouble finding the best daily exchange rates? Wondering about the reliability of banks, lending rates, and debt statistics across the country? This page details various economic factors across Canada newcomers should know.
                                     </p>
                                 <ul class="grid__list">
-                                    <li>How Safe Would You Be?</li> 
-                                    <li>The break-down of official data</li> 
-                                    <li>The comparision between various regions</li> 
+                                    <li>Areas with the lowest Mortgages</li> 
+                                    <li>Places to buy your home</li> 
+                                    <li>long term land ownership</li> 
                                 </ul>
                             </div>
                             <div class="grid__item grid__item--x3">
@@ -43,8 +43,8 @@
                                                 data: {
                                                     labels: ['Scarborough', 'Markham', 'Mississauga', 'Brampton', 'Toronto', 'Vaughan'],
                                                     datasets: [{
-                                                        label: 'Crime Rates In Percents',
-                                                        data: [12, 19, 3, 5, 2, 3],
+                                                        label: 'Average Mortgage Rates In Percents',
+                                                        data: [1, 3, 3, 5, 2, 1],
                                                         backgroundColor: [
                                                             'rgba(255, 99, 132, 0.2)',
                                                             'rgba(54, 162, 235, 0.2)',
@@ -85,46 +85,27 @@
                             <div class="grid grid--5col grid--about">
                                 <div class="grid__item grid__item--x3">
                                         <div style="position: relative; height:50px; width:auto">
-                                                <canvas id="radar-chart" width="500" height="300"></canvas>
+                                                <canvas id="line-chart" width="500" height="300"></canvas>
                                                 <script>
-                                                        new Chart(document.getElementById("radar-chart"), {
-                                                            type: 'radar',
-                                                            data: {
-                                                            labels: ["Homocide", "Theft", "Violence", "Vandalism", "Drugs"],
-                                                            datasets: [
-                                                                {
-                                                                label: "Scarbrough",
-                                                                fill: true,
-                                                                backgroundColor: "rgba(179,181,198,0.2)",
-                                                                borderColor: "rgba(179,181,198,1)",
-                                                                pointBorderColor: "#fff",
-                                                                pointBackgroundColor: "rgba(179,181,198,1)",
-                                                                data: [8.77,55.61,21.69,80.62,6.82]
-                                                                }, {
-                                                                label: "Brampton",
-                                                                fill: true,
-                                                                backgroundColor: "rgba(255,99,132,0.2)",
-                                                                borderColor: "rgba(255,99,132,1)",
-                                                                pointBorderColor: "#fff",
-                                                                pointBackgroundColor: "rgba(255,99,132,1)",
-                                                                pointBorderColor: "#fff",
-                                                                data: [25.48,50.50,50,8.1,60]
-                                                                }
-                                                            ]
-                                                            },
+                                                       new Chart(document.getElementById("line-chart"), {
+                                                            type: 'line',
+                                                            data: [0.1, 0.2,0.4]
+                                                            ,
                                                             options: {
                                                             title: {
                                                                 display: true,
-                                                                text: 'Types of Crime In The Area'
-                                                            }
+                                                                text: 'Changes In Mortgage Rates'
+                                                                }
                                                             }
                                                         });
                                                 </script>  
                                         </div>
                                 </div>
                                 <div class="grid__item grid__item--x2">
-                                    <h3 class="grid__title">Types of Crime In your Region <span></span></h3>
-                                    <p class="grid__text">Know what to avoid and figure out which place best suits you. Often times we overlook the dangers of traveling to a new area. Now you can be prepared. Take a look at the radar graph to see how your region matches with our dataset.</p>
+                                    <h3 class="grid__title">We are here for <span>your family</span></h3>
+                                    <p class="grid__text">In many cases, getting a mortgage at competitive rates is a reality no matter how recently you arrived to Canada. It is important to shop around, know the numbers, and trust advisors blindly.
+                                            Do not hesitate to look into more detailed financial data. You never know when it might come in handy.  
+                                             </p>
                                     <ul class="grid__list">
                                         <li>Ensure a happy and successful future for your kids</li> 
                                         <li>Become part of a community you would find yourself comfortable in</li> 
