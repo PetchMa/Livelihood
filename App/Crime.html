@@ -1,31 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-        <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
-        <script src="semantic/dist/semantic.min.js"></script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="" />
+<meta name="description" content="New beginnings need new information" />
+<meta name="keywords" content="landing page template, saas landing page template, saas website template, one page saas template" />
+<title>Livelihood</title>
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet"> 
+<script src="node_modules\chart.js\dist/Chart.js"></script>
+</head>
+<body>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap" rel="stylesheet">
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <title>Document</title>
-    </head>
-    <body id="body">
-        <div id="circle-background">
-        </div>
-        <h3 class="title">Crime</h3>
+	<section class="section section--features" id="features">
+			<div class="section__content section__content--fluid-width section__content--features">
+			        <h2 class="section__title section__title--centered">Crime Rates</h2>
+            </div>
+            <section class="section section--about" id="about">
 
-        
-        
+                    <div class="section__content section__content--fluid-width section__content--about">
+                        <div class="grid grid--5col grid--about">
+                        
+                            <div class="grid__item grid__item--x2">
+                                <h3 class="grid__title"><span>Community matters</span></h3>
+                                <p class="grid__text">Moving to another country is not easy. Whether you are looking for better employment opportunities, a safer, more welcoming environment, or a great place to bring a family, there is a lot to adapt to and a lot to learn. We are here to help you figure out: </p>
+                                <ul class="grid__list">
+                                    <li>What location suits you best</li> 
+                                    <li>The break-down of official data</li> 
+                                    <li>The comparision between local, and help provide Canadian attributes with those of your hometown</li> 
+                                </ul>
+                            </div>
+                            <div class="grid__item grid__item--x3">
+                                    <div class="chart-container" style="position: relative; height:50px; width:auto">
+                                    <canvas id="myChart" width="500" height="300"></canvas>
+                                    <script>
+                                            var ctx = document.getElementById('myChart');
+                                            var myChart = new Chart(ctx, {
+                                                type: 'bar',
+                                                data: {
+                                                    labels: ['Scarborough', 'Markham', 'Mississauga', 'Brampton', 'Toronto', 'Vaughn'],
+                                                    datasets: [{
+                                                        label: 'Crime Rates In Percents',
+                                                        data: [12, 19, 3, 5, 2, 3],
+                                                        backgroundColor: [
+                                                            'rgba(255, 99, 132, 0.2)',
+                                                            'rgba(54, 162, 235, 0.2)',
+                                                            'rgba(255, 206, 86, 0.2)',
+                                                            'rgba(75, 192, 192, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(255, 159, 64, 0.2)'
+                                                        ],
+                                                        borderColor: [
+                                                            'rgba(255, 99, 132, 1)',
+                                                            'rgba(54, 162, 235, 1)',
+                                                            'rgba(255, 206, 86, 1)',
+                                                            'rgba(75, 192, 192, 1)',
+                                                            'rgba(153, 102, 255, 1)',
+                                                            'rgba(255, 159, 64, 1)'
+                                                        ],
+                                                        borderWidth: 1
+                                                    }]
+                                                },
+                                                options: {
+                                                    // responsive: true,
+                                                    // maintainAspectRatio: false,
+                                                    scales: {
+                                                        yAxes: [{
+                                                            ticks: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }]
+                                                    }
+                                                }
+                                            });
+                                    </script>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--fluid-width section__content--about">
+                            <div class="grid grid--5col grid--about">
+                            
+                                <div class="grid__item grid__item--x3">
+                                   
+                                        <div class="chart-container" style="position: relative; height:50px; width:auto">
+                                                <canvas id="myChart" width="500" height="300"></canvas>
+                                                <script>
+                                                        var ctx = document.getElementById('myChart');
+                                                        var myRadarChart = new Chart(ctx, {
+                                                            type: 'radar',
+                                                            data: data,
+                                                            options: options
+                                                        });
+                                                </script>  
+                                            </div>
 
-    </body>
+
+                                </div>
+                                <div class="grid__item grid__item--x2">
+                                    <h3 class="grid__title">We are here for <span>your family</span></h3>
+                                    <p class="grid__text">Find the best neighbourhood for your family to live in and find answers to questions that will influence the well-being of those dear to you. </p>
+                                    <ul class="grid__list">
+                                            
+                                        <li>Ensure a happy and successful future for your kids</li> 
+                                        <li>Become part of a community you would find yourself comfortable in</li> 
+                                        <li>Discover the barriers and solutions in finding the perfect home</li> 
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                
+            </section>			
+	</section>	
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.paroller.min.js"></script>
+<script src="js/jquery.custom.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.custom.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
+
