@@ -16,123 +16,27 @@
 
 	<section class="section section--features" id="features">
 			<div class="section__content section__content--fluid-width section__content--features">
-			        <h2 class="section__title section__title--centered">Crime Rates</h2>
+			        <h2 class="section__title section__title--centered">Community</h2>
             </div>
             <section class="section section--about" id="about">
 
                     <div class="section__content section__content--fluid-width section__content--about">
-                        <div class="grid grid--5col grid--about">
-                        
-                            <div class="grid__item grid__item--x2">
-                                <h3 class="grid__title"><span>Community matters</span></h3>
-                                <p class="grid__text">Moving to another country is not easy. Whether you are looking for better employment opportunities, a safer, more welcoming environment, or a great place to bring a family, there is a lot to adapt to and a lot to learn. We are here to help you figure out: </p>
-                                <ul class="grid__list">
-                                    <li>What location suits you best</li> 
-                                    <li>The break-down of official data</li> 
-                                    <li>The comparision between local, and help provide Canadian attributes with those of your hometown</li> 
-                                </ul>
-                            </div>
-                            <div class="grid__item grid__item--x3">
-                                    <div class="chart-container" style="position: relative; height:50px; width:auto">
-                                    <canvas id="myChart" width="500" height="300"></canvas>
-                                    <script>
-                                            var ctx = document.getElementById('myChart');
-                                            var myChart = new Chart(ctx, {
-                                                type: 'bar',
-                                                data: {
-                                                    labels: ['Scarborough', 'Markham', 'Mississauga', 'Brampton', 'Toronto', 'Vaughan'],
-                                                    datasets: [{
-                                                        label: 'Crime Rates In Percents',
-                                                        data: [12, 19, 3, 5, 2, 3],
-                                                        backgroundColor: [
-                                                            'rgba(255, 99, 132, 0.2)',
-                                                            'rgba(54, 162, 235, 0.2)',
-                                                            'rgba(255, 206, 86, 0.2)',
-                                                            'rgba(75, 192, 192, 0.2)',
-                                                            'rgba(153, 102, 255, 0.2)',
-                                                            'rgba(255, 159, 64, 0.2)'
-                                                        ],
-                                                        borderColor: [
-                                                            'rgba(255, 99, 132, 1)',
-                                                            'rgba(54, 162, 235, 1)',
-                                                            'rgba(255, 206, 86, 1)',
-                                                            'rgba(75, 192, 192, 1)',
-                                                            'rgba(153, 102, 255, 1)',
-                                                            'rgba(255, 159, 64, 1)'
-                                                        ],
-                                                        borderWidth: 1
-                                                    }]
-                                                },
-                                                options: {
-                                                    // responsive: true,
-                                                    // maintainAspectRatio: false,
-                                                    scales: {
-                                                        yAxes: [{
-                                                            ticks: {
-                                                                beginAtZero: true
-                                                            }
-                                                        }]
-                                                    }
-                                                }
-                                            });
-                                    </script>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section__content section__content--fluid-width section__content--about">
                             <div class="grid grid--5col grid--about">
-                                <div class="grid__item grid__item--x3">
-                                        <div style="position: relative; height:50px; width:auto">
-                                                <canvas id="radar-chart" width="500" height="300"></canvas>
-                                                <script>
-                                                        new Chart(document.getElementById("radar-chart"), {
-                                                            type: 'radar',
-                                                            data: {
-                                                            labels: ["Homocide", "Theft", "Violence", "Vandalism", "Drugs"],
-                                                            datasets: [
-                                                                {
-                                                                    label: "Scarbrough",
-                                                                    fill: true,
-                                                                    backgroundColor: "rgba(179,181,198,0.2)",
-                                                                    borderColor: "rgba(179,181,198,1)",
-                                                                    pointBorderColor: "#fff",
-                                                                    pointBackgroundColor: "rgba(179,181,198,1)",
-                                                                    data: [8.77,55.61,21.69,80.62,6.82]
-                                                                    }, {
-                                                                    label: "Brampton",
-                                                                    fill: true,
-                                                                    backgroundColor: "rgba(255,99,132,0.2)",
-                                                                    borderColor: "rgba(255,99,132,1)",
-                                                                    pointBorderColor: "#fff",
-                                                                    pointBackgroundColor: "rgba(255,99,132,1)",
-                                                                    pointBorderColor: "#fff",
-                                                                    data: [25.48,50.50,50,8.1,60]
-                                                                }
-                                                            ]
-                                                            },
-                                                            options: {
-                                                            title: {
-                                                                display: true,
-                                                                text: 'Types of Crime In The Area'
-                                                                }
-                                                            }
-                                                        });
-                                                </script>  
-                                        </div>
-                                </div>
+                            
                                 <div class="grid__item grid__item--x2">
-                                    <h3 class="grid__title">We are here for <span>your family</span></h3>
-                                    <p class="grid__text">Find the best neighbourhood for your family to live in and find answers to questions that will influence the well-being of those dear to you. </p>
+                                    <h3 class="grid__title"><span>What Community Are You A Part Of?</span></h3>
+                                    <p class="grid__text">Living near people that speak the same language you do and have similar tastes and views will make your immigration more smooth and provide you with a valuable support network. Canada is full of visible minority communities, so don’t miss out.  </p>
                                     <ul class="grid__list">
-                                        <li>Ensure a happy and successful future for your kids</li> 
-                                        <li>Become part of a community you would find yourself comfortable in</li> 
-                                        <li>Discover the barriers and solutions in finding the perfect home</li> 
+                                        <li>What location suits you best</li> 
+                                        <li>The break-down of official data</li> 
+                                        <li>The comparision between local, and help provide Canadian attributes with those of your hometown</li> 
                                     </ul>
-                                    
+                                </div>
+                                <div class="grid__item grid__item--x3">
+                                    <div class="grid__image grid__image--right" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="img/family.gif" alt="" title=""/></div>
                                 </div>
                             </div>
-                        </div>
+                    </div>
             </section>			
 	</section>	
 <script src="js/jquery-3.3.1.min.js"></script>
