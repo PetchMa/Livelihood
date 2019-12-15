@@ -40,7 +40,7 @@
                                             var myChart = new Chart(ctx, {
                                                 type: 'bar',
                                                 data: {
-                                                    labels: ['Scarborough', 'Markham', 'Mississauga', 'Brampton', 'Toronto', 'Vaughn'],
+                                                    labels: ['Scarborough', 'Markham', 'Mississauga', 'Brampton', 'Toronto', 'Vaughan'],
                                                     datasets: [{
                                                         label: 'Crime Rates In Percents',
                                                         data: [12, 19, 3, 5, 2, 3],
@@ -85,19 +85,43 @@
                             
                                 <div class="grid__item grid__item--x3">
                                    
-                                        <div class="chart-container" style="position: relative; height:50px; width:auto">
-                                                <canvas id="myChart" width="500" height="300"></canvas>
+                                        <div style="position: relative; height:50px; width:auto">
+                                                <canvas id="radar-chart" width="500" height="300"></canvas>
                                                 <script>
-                                                        var ctx = document.getElementById('myChart');
-                                                        var myRadarChart = new Chart(ctx, {
+                                                        new Chart(document.getElementById("radar-chart"), {
                                                             type: 'radar',
-                                                            data: data,
-                                                            options: options
+                                                            data: {
+                                                            labels: ["Homocide", "Theft", "Violence", "Vandalism", "Drugs"],
+                                                            datasets: [
+                                                                {
+                                                                label: "Scarbrough",
+                                                                fill: true,
+                                                                backgroundColor: "rgba(179,181,198,0.2)",
+                                                                borderColor: "rgba(179,181,198,1)",
+                                                                pointBorderColor: "#fff",
+                                                                pointBackgroundColor: "rgba(179,181,198,1)",
+                                                                data: [8.77,55.61,21.69,80.62,6.82]
+                                                                }, {
+                                                                label: "Brampton",
+                                                                fill: true,
+                                                                backgroundColor: "rgba(255,99,132,0.2)",
+                                                                borderColor: "rgba(255,99,132,1)",
+                                                                pointBorderColor: "#fff",
+                                                                pointBackgroundColor: "rgba(255,99,132,1)",
+                                                                pointBorderColor: "#fff",
+                                                                data: [25.48,50.50,50,8.1,60]
+                                                                }
+                                                            ]
+                                                            },
+                                                            options: {
+                                                            title: {
+                                                                display: true,
+                                                                text: 'Types of Crime In The Area'
+                                                            }
+                                                            }
                                                         });
                                                 </script>  
-                                            </div>
-
-
+                                        </div>
                                 </div>
                                 <div class="grid__item grid__item--x2">
                                     <h3 class="grid__title">We are here for <span>your family</span></h3>
